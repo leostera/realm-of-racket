@@ -4,4 +4,15 @@
 (define (guess)
   (quotient (+ lower upper) 2))
 
-(guess)
+(define (smaller)
+  (set! upper (max lower (sub1 (guess))))
+  (guess))
+
+(define (bigger)
+  (set! lower (min upper (add1 (guess))))
+  (guess))
+
+(define (start n m)
+  (set! lower n)
+  (set! upper m)
+  (guess))
