@@ -42,3 +42,6 @@
 
 (cond
   ( test then )
+  ( test then )
+  ( test then )
+  ( else then ))
