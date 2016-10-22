@@ -45,3 +45,5 @@
   ( test then )
   ( test then )
   ( else then ))
+
+(when test then)
