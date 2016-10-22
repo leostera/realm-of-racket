@@ -7,7 +7,6 @@
 (rational? (sqrt -1))
 (integer? 8129)
 (exact-integer? 1.0)
-
 (exact-integer? 100)
 
 ; symbol checks
@@ -19,3 +18,11 @@
 (boolean? "false")
 (boolean? false)
 (boolean? #f)
+
+; list checks!
+(list? 'eh)
+(list? '(1 2 3))
+(cons? '(what is that aboot?))
+(cons? 1)
+(empty? '())
+(empty? 'a)
