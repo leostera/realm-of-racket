@@ -10,3 +10,5 @@
 
 ; boolean checks?!
 (boolean? "false")
+(boolean? false)
+(boolean? #f)
