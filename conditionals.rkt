@@ -35,3 +35,7 @@
 
 ; equals? works very very deeply -- must be more efficient to use the
 ; appropriate type predicate instead
+
+(if test
+    then
+    else)
