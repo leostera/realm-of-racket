@@ -39,3 +39,6 @@
 (if test
     then
     else)
+
+(cond
+  ( test then )
