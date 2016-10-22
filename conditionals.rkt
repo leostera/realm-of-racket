@@ -27,4 +27,4 @@
 (empty? '())
 (empty? 'a)
 
-; equality checks are made with = or <type>=?
+; equality checks are made with = or <type>=? or equal?
