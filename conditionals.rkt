@@ -28,3 +28,10 @@
 (empty? 'a)
 
 ; equality checks are made with = or <type>=? or equal?
+(= 1 2)
+(equal? 1 2)
+(boolean=? #f #f)
+(string=? "hello" "world")
+
+; equals? works very very deeply -- must be more efficient to use the
+; appropriate type predicate instead
