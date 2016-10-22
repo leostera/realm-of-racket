@@ -7,7 +7,7 @@
 (rational? 2/3)
 (rational? (sqrt -1))
 (exact-integer? 1.0)
-(exact-integer? 100))
+(exact-integer? 100)
 
 ; symbol checks
 (symbol? 3)
