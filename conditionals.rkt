@@ -27,3 +27,4 @@
 (empty? '())
 (empty? 'a)
 
+; equality checks are made with = or <type>=?
